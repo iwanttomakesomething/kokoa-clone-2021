@@ -11,5 +11,6 @@
   font-weight: 600;
 }
 .screen-header_icons span {
+  position: relative;
   margin-left: 25px;
 }
