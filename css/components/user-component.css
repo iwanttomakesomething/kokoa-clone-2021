@@ -43,3 +43,11 @@
   display: block;
   margin-bottom: 10px;
 }
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+}
+.user-component__text i {
+  margin-left: 3px;
+  color: #ff6e5e;
+}
