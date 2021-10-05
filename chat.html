@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat w/ NICO- kokoa talk</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>no service</span>
@@ -24,39 +24,39 @@
     </div>
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html"><i class="fas fa-angle-left fa-3x"></i></a>
+        <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">NICOL</h1>
+        <h1 class="alt-header__title">Nicolas serrano</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-lg"></i>
+        <span class="alt-header__icon"><i class="fas fa-search fa-lg"></i></sapn>
+          <sapn class="alt-header__icon"><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
-    <main class="main-screen">
-      <ul class="setting-list">
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-bullhorn"></i>
-            <span>Notices</span>
-          </div>
-          <div class="settings__setting-column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-flask"></i>
-            <span>Kokoa Lab</span>
-          </div>
-          <div class="settings__setting-column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-info-circle"></i>
-            <span>Version</span>
-          </div>
-          <div class="settings__setting-column">Latest Version</div>
-        </li>
-      </ul>
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday,June 30,2020
+        </div>
+        <div class="message-row">
+            <img src="https://avatars.githubusercontent.com/u/3612017">
+            <div class="message-row__content">
+                <span class="message__other">NICO</span>
+                <div class="message__info">
+                <span class="message__bubble">Hi</span>
+                <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                <span class="message__bubble">Hi i'm 민철</span>
+                <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
     </main>
     <script
       src="https://kit.fontawesome.com/4b2fd590b8.js"
