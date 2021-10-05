@@ -1,16 +1,11 @@
-.screen-header {
+.alt-header {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
 }
-.screen-header_title {
-  font-size: 30px;
+.alt-header__title {
+  font-size: 28px;
   font-weight: 600;
-}
-.screen-header_icons span {
-  position: relative;
-  margin-left: 25px;
 }
